@@ -274,7 +274,7 @@ if __name__ == '__main__':
     '''
 
     #'''
-    for epoch in range(2):
+    for epoch in range(500):
         # for epoch in range(1):
         tSt = datetime.now()
 
