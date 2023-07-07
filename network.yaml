@@ -1,6 +1,5 @@
 simulation:
     Ts: 1.0
-    #tSample: 4000
     tSample: 1000
 neuron:
     type:     LOIHI
@@ -17,18 +16,6 @@ training:
         tgtSpikeRegion: {start: 0, stop: 1000}    # only valid for NumSpikes and ProbSpikes
         tgtSpikeCount: {true: 100, false: 10}    # only valid for NumSpikes
     path:
-        #in:      /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_from100HzRawData_subset_400X1X7/
-        #train:   /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_from100HzRawData_subset_400X1X7/train.txt
-        #test:    /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_from100HzRawData_subset_400X1X7/test.txt
-        #in:      /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_from100HzRawData_400X7/
-        #train:   /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_from100HzRawData_400X7/train.txt
-        #test:    /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_from100HzRawData_400X7/test.txt
-        #in: /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_windows40_from100HzRawData_WithoutDownsampling_400X7X5/
-        #train: /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_windows40_from100HzRawData_WithoutDownsampling_400X7X5/train.txt
-        #test: /home/sizhen/Gym_SNN/SLAYER/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_windows40_from100HzRawData_WithoutDownsampling_400X7X5/test.txt
-        #in: /home/sibian/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_windows40_from1000HzRawData_WithoutDownsampling_1000X7X5/
-        #train: /home/sibian/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_windows40_from1000HzRawData_WithoutDownsampling_1000X7X5/train.txt
-        #test: /home/sibian/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/bs2_windows40_from1000HzRawData_WithoutDownsampling_1000X7X5/test.txt
-        in: /home/sibian/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/1000hz/
-        train: /home/sibian/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/1000hz/train.txt
-        test: /home/sibian/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/1000hz/test.txt
+        in: /home/xx/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/
+        train: /home/xx/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/train.txt
+        test: /home/xx/event/code/slayerPytorch/exampleLoihi/05_Gym/Dataset/test.txt
