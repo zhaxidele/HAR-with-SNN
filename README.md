@@ -10,9 +10,15 @@ For deployment of the trained SNN on Loihi, please visit the Intel Neuromorphic 
 
 ## citation
 @inproceedings{bian2023evaluating,
+
   title={Evaluating Spiking Neural Network on Neuromorphic Platform For Human Activity Recognition},
+  
   author={Bian, Sizhen and Magno, Michele},
+  
   booktitle={Proceedings of the 2023 ACM International Symposium on Wearable Computers},
+  
   pages={82--86},
+  
   year={2023}
+
 }
